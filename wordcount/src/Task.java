@@ -1,9 +1,13 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
 import static java.util.Collections.reverseOrder;
 import static java.util.function.UnaryOperator.identity;
 import static java.util.stream.Collectors.*;
 
-public class Main {
+public class Task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String sentence = scanner.nextLine();
@@ -18,5 +22,3 @@ public class Main {
         System.out.println("WORDS TOTAL COUNT: " + words.size());
     }
 }
-
-
